@@ -1,0 +1,41 @@
+/* Dropdawn.css */
+
+.Dropdawn {
+  margin-top: 50px;
+  position: relative;
+  width: 200px;
+}
+
+.Dropdawn__toggle {
+  background-color: #f1f1f1;
+  border: none;
+  color: #333;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px #675d5d;
+  margin-bottom: 5px;
+}
+
+.Dropdawn__toggle:hover {
+  background-color: #9e9696;
+}
+
+/* .Dropdawn__toggle:hover {
+  background-color: #ddd;
+} */
+
+.Dropdawn__menu {
+  /* display: none; */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #91e6e8;
+  padding: 10px;
+  width: 100%;
+}
+
+/* .Dropdawn:hover .Dropdawn__menu {
+  display: block;
+} */
